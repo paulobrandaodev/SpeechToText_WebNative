@@ -61,7 +61,7 @@ function  stopRecording() {
 async function sendToAzureSTT() {
     const audioBlob = new Blob(audioChunks, { type: 'audio/wav' });
 
-    const subscriptionKey = '2e8eef00d83c4dbf83b3070aab58e047';
+    const subscriptionKey = 'AZURE_KEY';
 
     try {
 
